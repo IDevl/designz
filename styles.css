@@ -1,0 +1,650 @@
+
+
+div.header {
+  position: relative;
+
+  top: 20px;
+  height: 100px;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  border-radius: 25px;
+}
+
+
+
+img.logo1 {
+  position: relative;
+  float: left;
+  top: 25px;
+  left: 10%;
+  height: 50px;
+  width: 150px;
+}
+
+
+  nav ul {
+    position: relative;
+    float: right;
+    right: 15%;
+    top: 20px;
+    word-spacing: 2cm;
+  }
+
+  nav ul li {
+    display: inline-block;
+    line-height: 40px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  nav ul li a:hover {
+    color: grey;
+  }
+
+
+
+
+    @media (max-width: 930px){
+
+      nav ul li{
+        display: block;
+        text-align: center;
+        background-color: black;
+        line-height: 25px;
+
+      }
+
+        nav ul {
+          top: 0px;
+          float: right;
+          right: 10%;
+
+
+        }
+
+    }
+
+
+    @media screen (max-width:375){
+      div.header {
+      display: none;
+      }
+    }
+
+
+
+
+div.homepage1 {
+  position: relative;
+  background-image: url(bg1.jpg);
+  background-repeat: no-repeat;
+  top: 10px;
+  left: 0;
+  width: 100%;;
+  height: 600px;
+  background-size: cover;
+  background-color: black;
+  border-radius: 25px;
+}
+
+
+h1.homepage1H1 {
+  position: relative;
+  float: left;
+  left: 20%;
+  top: 50px;
+  width: 320px;
+  color: white;
+  font: 30px Arial, sans-serif;
+}
+
+p.homepage1P1 {
+  position: relative;
+  left: 20%;
+  top: 60px;
+  width: 320px;
+  color: lightgrey;
+  font: 15px Arial, sans-serif;
+  line-height: 2;
+}
+
+button.learnmore {
+  position: relative;
+  top: 80px;
+  left: 20%;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  font: 15px Arial, sans-serif;
+  cursor: pointer;
+}
+
+
+
+
+a.iphone1 {
+  position: absolute;
+  background-repeat: no-repeat;
+  float: right;
+  top: 30px;
+  right: 17%;
+  box-shadow:  3px 3px 5px 6px black;
+  border-radius: 40px;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  a.iphone1 {
+   display: none;
+  }
+
+  h1.homepage1H1 {
+    text-align: center;
+    margin-left: 0;
+    left: 33%;
+  }
+
+  p.homepage1P1 {
+    text-align: center;
+    left: 33%;
+
+  }
+
+  button.learnmore {
+    left: 43%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  h1.homepage1H1 {
+    text-align: center;
+    left: 0%;
+  }
+
+  p.homepage1P1 {
+    text-align: center;
+    left: 0%;
+
+  }
+
+  button.learnmore {
+    text-align: center;
+    left: 30%;
+  }
+}
+
+
+
+
+
+div.homepage2 {
+  position: relative;
+  top: 15px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-color: lightgrey;
+  border-radius: 25px;
+}
+
+
+
+div.webDesign {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 50%;
+  top: 40px;
+  left: 10%;
+}
+
+div.mobileDesign {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  top: 40px;
+  left: 3%;
+}
+
+img.webImage {
+  border-radius: 35px;
+  width: 80%;
+  height: 400px;
+}
+
+
+img.mobileImage {
+  border-radius: 35px;
+  width: 80%;
+  height: 400px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  div.homepage2 {
+    height: 1000px;
+  }
+
+  div.webDesign {
+    width: 100%;
+  }
+
+  div.mobileDesign {
+    width: 100%;
+    display: block;
+    top: 120px;
+    left: 10%;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  div.mobileDesign {
+    top: 100px;
+    display: block;
+    left: 10%;
+  }
+  }
+
+
+
+h1.webDesignH1 {
+  position: absolute;
+  text-align: center;
+  top: 120px;
+  left: 22%;
+  font: 40px Arial, sans-serif;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+
+h1.mobileDesignH1 {
+  position: absolute;
+  text-align: center;
+  top: 120px;
+  left: 19%;
+  font: 40px Arial, sans-serif;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+@media screen and (max-width: 1400px) {
+  h1.webDesignH1 {
+    float: left;
+    left: 15%;
+
+  }
+
+  h1.mobileDesignH1 {
+    float: left;
+    left: 10%;
+
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  h1.webDesignH1 {
+    width: 100px;
+    float: left;
+    left: 35%;
+    top: 90px;
+
+  }
+  h1.mobileDesignH1 {
+    top: 520px;
+    width: 100px;
+    left: 35%;
+  }
+}
+
+
+
+
+a.viewProjects1 {
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  cursor: pointer;
+  left: 29%;
+  text-decoration: none;
+  color: white;
+  font: 18px Times New Roman, sans-serif;
+  text-shadow: 2px 2px black;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+a.viewProjects2 {
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  cursor: pointer;
+  left: 30%;
+  text-decoration: none;
+  color: white;
+  font: 18px Times New Roman, sans-serif;
+  text-shadow: 2px 2px black;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+  a.viewProjects1 {
+    float: left;
+    left: 15%;
+
+  }
+
+  a.viewProjects2 {
+    float: left;
+    left: 10%;
+
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  a.viewProjects1 {
+    float: left;
+    left: 35%;
+
+  }
+
+  a.viewProjects2 {
+    float: left;
+    left: 35%;
+    top: 650px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  a.viewProjects1 {
+    float: left;
+    left: 20%;
+
+  }
+  h1.webDesignH1 {
+    width: 100px;
+    float: left;
+    left: 20%;
+    top: 90px;
+
+  }
+  h1.mobileDesignH1 {
+    top: 520px;
+    width: 100px;
+    left: 20%;
+  }
+
+  a.viewProjects2 {
+    float: left;
+    left: 20%;
+    top: 650px;
+
+  }
+}
+
+
+a.viewProjects1:hover {
+  color: grey;
+
+}
+
+a.viewProjects2:hover {
+  color: grey;
+
+}
+
+
+
+
+
+
+
+
+
+
+div.homepage3 {
+
+}
+
+
+
+
+div.homepage4 {
+  position: relative;
+  background-color: #1a1a1a;
+  background-repeat: no-repeat;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-size: 60%;
+  border-radius: 25px;
+}
+
+
+
+
+img.footerHead1 {
+  position: relative;
+  float: left;
+  top: 15px;
+  left: 3%;
+  width: 100px;
+
+}
+
+
+h1.addressHead {
+  position: absolute;
+  text-decoration:none;
+  float: left;
+  top: 120px;
+  left: 10%;
+  font: 13px Tahoma;
+  color: #b3b3b3;
+
+}
+
+h1.addressHead {
+  position: absolute;
+  text-decoration:none;
+  float: left;
+  top: 50px;
+  left: 20%;
+  font: 20px Tahoma;
+  color: #b3b3b3;
+
+}
+
+h1.contactHead {
+  position: absolute;
+  text-decoration:none;
+  float: left;
+  top: 50px;
+  left: 50%;
+  font: 20px Tahoma;
+  color: #b3b3b3;
+}
+
+
+h1.phoneHead {
+  position: absolute;
+  text-decoration:none;
+  float: left;
+  top: 80px;
+  left: 50%;
+  font: 13px Tahoma;
+  color: #b3b3b3;
+}
+
+h1.emailHead {
+  position: absolute;
+  text-decoration:none;
+  float: left;
+  top: 100px;
+  left: 50%;
+  font: 13px Tahoma;
+  color: #b3b3b3;
+}
+
+
+a.address {
+  position: absolute;
+  text-decoration:none;
+  float: left;
+  width: 250px;
+  top: 90px;
+  left: 20%;
+  font: 13px Tahoma;
+  color: #b3b3b3;
+}
+
+a.phone {
+  position: absolute;
+  text-decoration:none;
+  float: left;
+  width: 250px;
+  top: 90px;
+  left: 54%;
+  font: 13px Tahoma;
+  color: #b3b3b3;
+}
+
+a.email {
+  position: absolute;
+  text-decoration:none;
+  float: left;
+  width: 250px;
+  top: 110px;
+  left: 55%;
+  font: 13px Tahoma;
+  color: #b3b3b3;
+}
+
+
+@media screen and (max-width: 1450px) {
+      div.homepage4 {
+        height: 500px;
+      }
+
+     h1.addressHead {
+        left:37%;
+    }
+     a.address {
+       text-align: center;
+       left:34%;
+     }
+
+     h1.contactHead {
+       top:200px;
+       left:35%;
+     }
+
+
+     h1.phoneHead {
+       text-align: center;
+       top:230px;
+       left:35%;
+     }
+
+     h1.emailHead {
+       text-align: center;
+       top:250px;
+       left:35%;
+     }
+
+     a.phone {
+       top:240px;
+       left:39%;
+     }
+
+     a.email {
+
+       top:260px;
+       left:41%;
+     }
+}
+
+
+@media screen and (max-width: 800px) {
+
+img.footerHead1 {
+   left: 35%;
+ }
+
+  h1.addressHead {
+     left:23%;
+ }
+  a.address {
+    text-align: center;
+    left:17%;
+  }
+
+  h1.contactHead {
+    top:200px;
+    left:20%;
+  }
+
+
+  h1.phoneHead {
+    text-align: center;
+    top:230px;
+    left:20%;
+  }
+
+  h1.emailHead {
+    text-align: center;
+    top:250px;
+    left:20%;
+  }
+
+  a.phone {
+    top:240px;
+    left:34%;
+  }
+
+  a.email {
+
+    top:260px;
+    left:39%;
+  }
+
+}
+
+
+
+
+
+
+
+
+div.footer {
+  position: relative;
+  background-color: white;
+  background-repeat: no-repeat;
+  top: 40px;
+  left: 10%;
+  height: 50px;
+  width: 80%;
+  background-size: 60%;
+  border-radius: 25px;
+  text-align: center;
+}
